@@ -1,0 +1,148 @@
+.body{
+    background-color: #A6B1E1;
+}
+section{
+    display: block;
+}
+.logo{
+    border-radius: 50%;
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: 700;
+    color: aliceblue;
+}
+.header{
+    background-color:#F4EEFF;
+  
+}
+.container-fluid> a{
+    font-size:35px;
+}
+.navbar .nav-item a{
+    font-weight: 500;
+    font-size: 25px;
+}
+.coverpage{
+    width: 100%;
+    height: 800px;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: darken;
+}
+.greet>span{
+    color: #F4EEFF;
+    font-size: 40px;
+    font-weight: 500;
+}
+.me>p{
+    color: #F4EEFF;
+    font-size: 80px;
+    font-weight: 800;
+}
+.proffesion>p{
+    color: #F4EEFF;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h2{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.list>li{
+    font-size: 20px;
+}
+/* skills*/
+.skills {
+    height: fit-content;
+    text-align: center;
+    
+}
+.skill-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+.program-lang-logo {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border: 2px solid white;
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 50px 0 #0f1b31;
+}
+
+.containers{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.other-containers{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.skills img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #424874;
+    text-align: center;
+    width: 100%;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-top: 30px;
+    align-items: center;
+}
+.footer .logo-container{
+    height: 80px;
+    display: flex;
+    align-items:center ;
+    align-content: center;
+    justify-content:center ;
+}
+
+
